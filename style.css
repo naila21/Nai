@@ -1,0 +1,119 @@
+    @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+    body {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: url(computer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .titre {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+        display: inline-block;
+        color: #dbdbdb;
+        margin-top: 2%;
+        width: 100%;
+        position: absolute;
+        top: 5%;
+        left: 3%;
+       
+    }
+
+    .logo {
+        max-width: 10%;
+    }
+
+.social{
+    background-color: rgba(red, green, blue, alpha);
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    float: right;
+}
+
+.social img{
+width: 30px;
+height: 30px;
+
+}
+
+    .menu {
+        position: relative;
+        top: 40%;
+    }
+    
+    nav>ul {
+        display: inline-flex;
+    }
+    
+    nav {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.596);
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        position: fixed;
+        top: 0%;
+        bottom: 0px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav>ul:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    nav>ul>li {
+        position: relative;
+    }
+    
+    nav li {
+        list-style-type: none;
+    }
+    
+    nav>ul>li {
+        padding: 20px 30px;
+        color: rgb(170, 137, 137);
+    
+    }
+    
+    nav>ul>li>a {
+        padding: 20px 30px;
+        color: rgb(27, 21, 21);
+    }
+    
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        margin-left: 8%;
+        background-color: rgba(255, 245, 238, 0.801);
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }    
+
+      .searchbar{
+float: right;
+      }
